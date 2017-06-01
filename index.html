@@ -8,7 +8,8 @@
     <script src="jquery.searchableSelect.js"></script>
   </head>
   <body>
-    <select>
+  <h3>searchable select</h3>
+    <select id="select">
       <option value="Personalize">Personalize</option>
       <option value="BlackBerry">BlackBerry</option>
       <option value="device">device</option>
@@ -37,6 +38,9 @@
       <option value="by">by</option>
       <option value="real">real</option>
     </select>
-    <script>$(function(){$('select').searchableSelect();});</script>
+    <script>$(function(){$('#select').searchableSelect();});</script>
+	 <h3>searchable select by ajax</h3>
+    <select id="select_id"></select>
+	<script>$(function(){$('#select_id').searchableSelect({url:"https://github.com/jiuli/searchableSelectAjax/demo.json"});});</script>
   </body>
 </html>
