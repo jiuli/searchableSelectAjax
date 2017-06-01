@@ -15,7 +15,9 @@ You need script like this:
 <script>
  
   
-  $(“#select_id”).searchableSelect({url:"https://github.com/jiuli/searchableSelectAjax/demo.json"});即可调用远程数据
+  $(“#select_id”).searchableSelect({url:"https://github.com/jiuli/searchableSelectAjax/demo.json"});
+  #加上url参数，即可调用远程数据，后台代码对应写上search_name搜索字段
+  
 </script>
 ```
 
